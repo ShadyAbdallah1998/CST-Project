@@ -1,0 +1,22 @@
+@use './Base/reset' as *;
+@use './Abstract/colores-variables' as *;
+@use './Abstract/media-mixin' as *;
+@include create-media;
+:root {
+  --main-bg-color: #{$bg-primary};
+  --secondary-bg-color: #{$bg-secondary};
+  --primary-bg-header-footer: #{$bg-header-footer};
+  --main-text-color: #{$bg-primary};
+  --secondary-text-color: #{$success};
+  --button-bg-color: #{$danger};
+  --button-text-color: #{$info};
+  // fontSize
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-sm: 0.875rem;
+  --button-font-size: 1rem;
+}
+
+// p {
+//   color: var(--primary-bg-header-footer);
+// }

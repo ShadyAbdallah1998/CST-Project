@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 0) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 576px) {
+  :root {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  :root {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  :root {
+    font-size: 19px;
+  }
+}
+:root {
+  --main-bg-color: #343a40;
+  --secondary-bg-color: #575c62;
+  --primary-bg-header-footer: #252d35;
+  --main-text-color: #343a40;
+  --secondary-text-color: #198754;
+  --button-bg-color: #dc3545;
+  --button-text-color: #0dcaf0;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-sm: 0.875rem;
+  --button-font-size: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

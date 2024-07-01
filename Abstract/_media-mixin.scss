@@ -1,0 +1,11 @@
+@use './Abstract/media-variables' as *;
+@mixin create-media {
+  @each $key, $value in $media-breakpoints {
+    @media screen and (min-width: $value) {
+      :root {
+        font-size: $font-size;
+      }
+    }
+    $font-size: $font-size + 1;
+  } //end of each loop
+}
